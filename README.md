@@ -45,7 +45,7 @@ Much much more interestingly (to me atleast, this problem doesn't seem to occur 
     PatchEmbedding-3             [-1, 256, 516]               0
            Dropout-4             [-1, 257, 516]               0
          LayerNorm-5               [-1, 2, 516]           1,032
-MultiheadAttention-6  [[-1, 2, 516], [-1, 257, 257]]               0
+ MultiheadAttention-6  [[-1, 2, 516], [-1, 257, 257]]               0
            Dropout-7               [-1, 2, 516]               0
          LayerNorm-8             [-1, 257, 516]           1,032
             Linear-9             [-1, 257, 516]         266,772
@@ -73,7 +73,7 @@ MultiheadAttention-24  [[-1, 2, 516], [-1, 257, 257]]               0
 TransformerEncoder-31             [-1, 257, 516]               0
         LayerNorm-32             [-1, 257, 516]           1,032
            Linear-33                    [-1, 1]             517
----------------------------------------------------------------
+                  
 Total params: 2,006,209
 Trainable params: 2,006,209
 Non-trainable params: 0
