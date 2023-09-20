@@ -37,45 +37,7 @@ Much much more interestingly (to me atleast, this problem doesn't seem to occur 
 
 ## Architecture 
 
-      Layer (type)               Output Shape         Param #
- 
-            Conv2d-1          [-1, 516, 16, 16]         396,804
-       BatchNorm2d-2          [-1, 516, 16, 16]           1,032
-    PatchEmbedding-3             [-1, 256, 516]               0
-           Dropout-4             [-1, 257, 516]               0
-         LayerNorm-5               [-1, 2, 516]           1,032
-MultiheadAttention-6  [[-1, 2, 516], [-1, 257, 257]]               0
-           Dropout-7               [-1, 2, 516]               0
-         LayerNorm-8             [-1, 257, 516]           1,032
-            Linear-9             [-1, 257, 516]         266,772
-             ReLU-10             [-1, 257, 516]               0
-           Linear-11             [-1, 257, 516]         266,772
-          Dropout-12             [-1, 257, 516]               0
-TransformerEncoder-13             [-1, 257, 516]               0
-        LayerNorm-14               [-1, 2, 516]           1,032
-MultiheadAttention-15  [[-1, 2, 516], [-1, 257, 257]]               0
-          Dropout-16               [-1, 2, 516]               0
-        LayerNorm-17             [-1, 257, 516]           1,032
-           Linear-18             [-1, 257, 516]         266,772
-             ReLU-19             [-1, 257, 516]               0
-           Linear-20             [-1, 257, 516]         266,772
-          Dropout-21             [-1, 257, 516]               0
-TransformerEncoder-22             [-1, 257, 516]               0
-        LayerNorm-23               [-1, 2, 516]           1,032
-MultiheadAttention-24  [[-1, 2, 516], [-1, 257, 257]]               0
-          Dropout-25               [-1, 2, 516]               0
-        LayerNorm-26             [-1, 257, 516]           1,032
-           Linear-27             [-1, 257, 516]         266,772
-             ReLU-28             [-1, 257, 516]               0
-           Linear-29             [-1, 257, 516]         266,772
-          Dropout-30             [-1, 257, 516]               0
-TransformerEncoder-31             [-1, 257, 516]               0
-        LayerNorm-32             [-1, 257, 516]           1,032
-           Linear-33                    [-1, 1]             517
- 
-Total params: 2,006,209
-Trainable params: 2,006,209
-Non-trainable params: 0
+ ![image](https://github.com/Ruthvik9/Transformers-and-shortcut-learning/assets/74010232/785c5640-78ef-4c5f-9deb-157daa827328)
 
 
  
