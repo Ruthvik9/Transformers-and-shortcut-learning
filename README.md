@@ -1,7 +1,7 @@
 # Transformers-and-shortcut-learning
 
 Transformers as an architecture have shown a lot of promise over the years, increasingly in the field of vision.
-However, recent studies have shown that they are not immune to shortcut learning, which is quite problematic, given how transformers are increasingly being used
+However, recent studies [1] have shown that they are not immune to shortcut learning, which is quite problematic, given how transformers are increasingly being used
 for medical purposes. Therefore, I've tried to study how susceptible Vision Transformers are to shortcut learning, by taking the classic and simple cats vs dogs dataset from MSR.
 
 My goal is to replicate shortcut learning in a rather simple way which nevertheless fools the transformer into learning spurious correlations.
@@ -40,9 +40,12 @@ Much much more interestingly (to me atleast, this problem doesn't seem to occur 
  ![image](https://github.com/Ruthvik9/Transformers-and-shortcut-learning/assets/74010232/785c5640-78ef-4c5f-9deb-157daa827328)
 
 
+
  
 
 
 I'm currently trying to run more ablation experiments to analyse this behavior further and come up with new components which help the transformer combat this phenomenon.
 
  
+## References
+[1] https://arxiv.org/pdf/2205.12466.pdf
