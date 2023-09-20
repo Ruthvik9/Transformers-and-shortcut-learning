@@ -38,7 +38,7 @@ Much much more interestingly (to me atleast, this problem doesn't seem to occur 
 ## Architecture 
 
       Layer (type)               Output Shape         Param #
-================================================================
+ 
             Conv2d-1          [-1, 516, 16, 16]         396,804
        BatchNorm2d-2          [-1, 516, 16, 16]           1,032
     PatchEmbedding-3             [-1, 256, 516]               0
